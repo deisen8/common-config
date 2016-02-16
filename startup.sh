@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Run this script once after cloning the repo in order to setup the environment for your operating system
 read -p "Enter your operating system (mac/windows/linux): " os
 echo "Setting up $os config..."
