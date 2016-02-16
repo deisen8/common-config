@@ -1,0 +1,13 @@
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+    tidy = branch --merged master | grep -v \"master\" | xargs -n 1 git branch -d
+    alias = config --get-regexp ^alias\\.
+    last = log -1
+[push]
+    default = simple
+

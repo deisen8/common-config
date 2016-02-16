@@ -32,7 +32,7 @@ git clone https://github.com/plasticboy/vim-markdown.git
 
 # Add sourcing of gitconfig file
 echo "[include]" >> ~/.gitconfig
-echo "    path = ~/common-config/.gitconfig"
+echo "    path = ~/common-config/.gitconfig" >> ~/.gitconfig
 
 # Source bash profiles to load new configuration
 source ~/.bash_profile
