@@ -20,7 +20,7 @@ mkdir libs
 
 # Clone and source bash-git-prompt (https://github.com/magicmonty/bash-git-prompt)  
 git clone git@github.com:magicmonty/bash-git-prompt.git libs/bash-git-prompt
-echo "source ~/common-config/libs/bash-git-prompt/gitprompt.sh" >> ~/common-config/.bash_profile
+echo "source ~/common-config/libs/bash-git-prompt/gitprompt.sh" >> ~/.bash_profile
 
 # Install Pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
