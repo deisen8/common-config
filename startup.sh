@@ -30,6 +30,10 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
 git clone https://github.com/plasticboy/vim-markdown.git
 
+# Add sourcing of gitconfig file
+echo "[include]" >> ~/.gitconfig
+echo "    path = ~/common-config/.gitconfig"
+
 # Source bash profiles to load new configuration
 source ~/.bash_profile
 
