@@ -51,10 +51,3 @@ Time12ampm="\$(date +%I:%M)"
 GIT_PROMPT_END_USER=" \n${BoldBlue}${Time12ampm}${ResetColor} $ "
 GIT_PROMPT_END_ROOT=" \n${BoldBlue}${Time12ampm}${ResetColor} # "
 
-# Additional configuration
-
-source ~/common-config/libs/bash-git-prompt/gitprompt.sh
-source ~/common-config/libs/bash-git-prompt/gitprompt.sh
-source ~/common-config/libs/bash-git-prompt/gitprompt.sh
-source ~/common-config/libs/bash-git-prompt/gitprompt.sh
-source ~/common-config/libs/bash-git-prompt/gitprompt.sh
