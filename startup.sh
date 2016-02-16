@@ -8,12 +8,12 @@ echo "cloning $os-config repository to ~/$os-config"...
 git clone git@github.com:quantum-media-tech/$os-config.git ~/$os-config
 
 # Add sourcing for common-config 
-echo "source ~/common-config/.bash_profile" >> ~/.bash_profile
-echo "source ~/common-config/.vimrc" >> ~/.vimrc
+echo "source ~/common-config/bash_profile" >> ~/.bash_profile
+echo "source ~/common-config/vimrc" >> ~/.vimrc
 
 # Add sourcing for (os)-config
-echo "source ~/$os-config/.bash_profile" >> ~/.bash_profile
-echo "source ~/$os-config/.vimrc" >> ~/.vimrc
+echo "source ~/$os-config/bash_profile" >> ~/.bash_profile
+echo "source ~/$os-config/vimrc" >> ~/.vimrc
 
 # Make folder for loading additional libraries
 mkdir libs
@@ -32,7 +32,7 @@ git clone https://github.com/plasticboy/vim-markdown.git
 
 # Add sourcing of gitconfig file
 echo "[include]" >> ~/.gitconfig
-echo "    path = ~/common-config/.gitconfig" >> ~/.gitconfig
+echo "    path = ~/common-config/gitconfig" >> ~/.gitconfig
 
 # Source bash profiles to load new configuration
 source ~/.bash_profile
