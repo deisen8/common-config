@@ -1,4 +1,4 @@
-# Broswer Extensions
+# Browser Extensions
 
 This guide contains a list of useful browser extensions.
 
