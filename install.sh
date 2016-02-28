@@ -7,7 +7,7 @@ echo
 
 # Clone config repo for specific operating system
 echo "cloning $os-config repository to ~/$os-config"...
-git clone git@github.com:quantum-media-tech/$os-config.git ~/$os-config
+git clone https://github.com/quantum-media-tech/$os-config.git ~/$os-config
 
 # Add sourcing for common-config 
 echo "source ~/common-config/bash_profile" >> ~/.bash_profile
@@ -21,7 +21,7 @@ echo "source ~/$os-config/vimrc" >> ~/.vimrc
 mkdir libs
 
 # Clone and source bash-git-prompt (https://github.com/magicmonty/bash-git-prompt)  
-git clone git@github.com:magicmonty/bash-git-prompt.git libs/bash-git-prompt
+git clone https://github.com/magicmonty/bash-git-prompt.git libs/bash-git-prompt
 echo "source ~/common-config/libs/bash-git-prompt/gitprompt.sh" >> ~/.bash_profile
 
 # Install Pathogen
